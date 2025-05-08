@@ -70,11 +70,46 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: Sym}
   - {t: '$$mdi:backspace-outline$$', h: Num}
+  focal:
+  - V
+  - L
+  - H
+  - G
+  - K
+  - Q
+  - F
+  - O
+  - U
+  - J
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - B
+  - Y
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
+  - X
+  - M
+  - D
+  - P
+  - ''''
+  - W
+  - ','
+  - .
+  - /
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
   nav:
   - ''
   - ''
   - ''
-  - ''
+  - {t: focal, h: toggle}
   - {t: qwerty, h: toggle}
   - ''
   - Paste
@@ -283,7 +318,7 @@ layers:
 combos:
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-esc$$', h: Media}
-  l: [colemak, qwerty]
+  l: [colemak, qwerty, focal]
 - p: [32, 33]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  l: [colemak, qwerty]
+  l: [colemak, qwerty, focal]
