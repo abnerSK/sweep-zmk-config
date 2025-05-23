@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cradio}
 layers:
-  colemak:
+  Base:
   - Q
   - W
   - F
@@ -35,46 +35,11 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: Sym}
   - {t: '$$mdi:backspace-outline$$', h: Num}
-  focal:
-  - V
-  - L
-  - H
-  - G
-  - K
-  - Q
-  - F
-  - O
-  - U
-  - J
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - B
-  - Y
-  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
-  - Z
-  - X
-  - M
-  - D
-  - P
-  - ''''
-  - W
-  - ','
-  - .
-  - /
-  - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
-  - {t: '$$mdi:backspace-outline$$', h: Num}
-  nav:
+  Nav:
   - ''
   - ''
-  - {t: focal, h: toggle}
-  - {t: colemak, h: toggle}
+  - ''
+  - ''
   - ''
   - ''
   - Paste
@@ -105,7 +70,7 @@ layers:
   - ''
   - $$mdi:keyboard-return$$
   - $$mdi:backspace-outline$$
-  mouse:
+  Mouse:
   - ''
   - ''
   - ''
@@ -140,7 +105,7 @@ layers:
   - {type: held}
   - Right
   - Left
-  media:
+  Media:
   - ''
   - ''
   - ''
@@ -175,7 +140,7 @@ layers:
   - {type: held}
   - $$mdi:volume-off$$
   - $$mdi:play-pause$$
-  number:
+  Num:
   - '['
   - '7'
   - '8'
@@ -210,7 +175,7 @@ layers:
   - '-'
   - ''
   - {type: held}
-  symbol:
+  Sym:
   - '{'
   - '&'
   - '*'
@@ -245,7 +210,7 @@ layers:
   - _
   - {type: held}
   - ''
-  function:
+  Fun:
   - F12
   - F7
   - F8
@@ -283,7 +248,7 @@ layers:
 combos:
 - p: [30, 31]
   k: {t: '$$mdi:keyboard-esc$$', h: Media}
-  l: [colemak, focal]
+  l: [Base]
 - p: [32, 33]
   k: {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  l: [colemak, focal]
+  l: [Base]
