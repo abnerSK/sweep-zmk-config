@@ -24,6 +24,12 @@ parse_config:
     "&mkp RCLK": Right
 
 
+  zmk_combos:
+    combo_tab: { key: "$$mdi:keyboard-tab$$" }
+    combo_esc: { key: "$$mdi:keyboard-esc$$" }
+    combo_lpar: { key: "(" }
+    combo_rpar: { key: ")" }
+
   zmk_keycode_map:
     EXCL: "!"
     AT: "@"
