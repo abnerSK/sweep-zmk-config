@@ -28,12 +28,7 @@ can tinker a little more freely.
   had soreness in my right thumb, but I do have trouble remembering where all
   the braces and brackets are in Miryoku, so maybe these combos will help.
 
-## Things I might try someday
-
-- Exploring non-momentary layer switching, since my thumbs get a little
-  fatigued holding layer switches down.
-
-## Things I've tried
+# Things I've tried
 
 Many of these are experimental layers for alternative layouts, largely inspired
 by [Pascal Getreuer's guide][which-alt]. I continue to play with these in the
