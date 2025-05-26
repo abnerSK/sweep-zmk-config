@@ -62,16 +62,16 @@ ZMK_LAYER(Base,
 ZMK_LAYER(Nav,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &trans        &trans        &trans        &trans        &trans            &trans        &kp LG(V)     &kp LG(C)     &kp LG(X)     &kp LG(Z)
+    &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &trans            &caps_word    &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT
+    &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &trans            &trans        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &trans        &trans        &trans        &trans        &trans            &trans        &kp HOME      &kp PG_DN     &kp PG_UP     &kp END
+    &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
 //                                          │             │             │   │             │             │
-                                              &trans        &trans            &kp ENTER     &kp BSPC
+                                              &trans        &trans            &trans        &trans
 //                                          ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
 )
 
