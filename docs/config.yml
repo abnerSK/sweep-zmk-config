@@ -8,6 +8,9 @@ parse_config:
 
   raw_binding_map:
     "&caps_word": "Caps"
+    "&comma_morph": ","
+    "&dot_morph": "."
+    "&lpar_morph": "("
     "&mmv MOVE_LEFT": $$mdi:arrow-left-thick$$
     "&mmv MOVE_DOWN": $$mdi:arrow-down-thick$$
     "&mmv MOVE_UP": $$mdi:arrow-up-thick$$
@@ -23,6 +26,8 @@ parse_config:
     "&mkp LCLK": Left
     "&mkp RCLK": Right
     "&nav_word NAV": Nav
+    "&qmark_morph": "?"
+    "&rpar_morph": ")"
 
   zmk_combos:
     combo_caps: { key: "Caps" }
