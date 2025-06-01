@@ -62,23 +62,23 @@ ZMK_LAYER(Base,
     &kp Z         &kp X         &kp C         &kp D         &kp V             &kp K         &kp H         &comma_morph  &dot_morph    &qmark_morph
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
 //                                          │             │             │   │             │             │
-                                              &kp SPACE     &kp TAB           &lt SYM ENTER &lt NUM BSPC
+                                              &lt NAV SPACE &kp TAB           &lt SYM ENTER &lt NUM BSPC
 //                                          ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
 )
 
 ZMK_LAYER(Nav,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
+    &none         &none         &none         &none         &none             &none         &none         &none         &none         &none
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &trans            &trans        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT
+    &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &none             &none         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
 //│             │             │             │             │             │   │             │             │             │             │             │
-    &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
+    &none         &none         &none         &none         &none             &none         &none         &none         &none         &none
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
 //                                          │             │             │   │             │             │
-                                              &trans        &trans            &trans        &kp K_CANCEL
+                                              &none         &none             &none         &none
 //                                          ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
 )
 
