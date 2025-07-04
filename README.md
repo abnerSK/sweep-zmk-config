@@ -15,8 +15,8 @@ can tinker a little more freely.
 
 ## Changes from Miryoku
 
-- Removed the [button][miryoku-button-layer] and [mouse][miryoku-mouse-layer],
-  layers, since I wasn't really using them.
+- Removed the [button][miryoku-button-layer] layer, since I wasn't really
+  using it.
 - Removed [additional features][miryoku-additional-features] (boot, base, tap,
   extra, opposite, current).
 - Removed keys I didn't use (insert, RGB, power & output toggles, scroll lock).
@@ -24,9 +24,6 @@ can tinker a little more freely.
   noticing soreness in my left thumb that I think was due to heavy usage with
   space, nav, and escape all there. I am hoping moving nav and escape will
   help.
-- While I am here, I'm also experimenting with all his symbol combos. I haven't
-  had soreness in my right thumb, but I do have trouble remembering where all
-  the braces and brackets are in Miryoku, so maybe these combos will help.
 
 # Things I've tried
 
@@ -53,6 +50,9 @@ Colemak-DH to take the muscle memory hit.
 - Adding a Qwerty layer so friends could test-drive the keyboard more easily. I
   tried to gather interest over Christmas, and I think this is just going to be
   my own personal hobby, lol.
+- Vertical symbol combos from [urob's zmk-config][urob-zmk-config]. I almost
+  got them, but they're harder to type, and I don't mind holding down the
+  symbol layer key.
 
 ## What the layers look like
 

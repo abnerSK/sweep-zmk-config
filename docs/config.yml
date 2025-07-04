@@ -108,3 +108,9 @@ parse_config:
 
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
+
+    F14: $$mdi:lightbulb-outline$$
+    F15: $$mdi:lightbulb-on-outline$$
+
+    C_AC_DESKTOP_SHOW_ALL_APPLICATIONS: $$mdi:view-grid-outline$$
+    C_AC_DESKTOP_SHOW_ALL_WINDOWS: $$mdi:dock-window$$
