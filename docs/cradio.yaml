@@ -70,6 +70,10 @@ layers:
   - ''
   - ''
   - ''
+  Mouse: ['', '', '', '', '', '', '$$mdi:dock-window$$', F11, '$$mdi:view-grid-outline$$', '', '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$',
+    '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-shift$$', '', '', '$$mdi:arrow-left-thick$$', '$$mdi:arrow-down-thick$$', '$$mdi:arrow-up-thick$$', '$$mdi:arrow-right-thick$$',
+    '', '', '', '', '', '', '$$mdi:arrow-left-bold-outline$$', '$$mdi:arrow-down-bold-outline$$', '$$mdi:arrow-up-bold-outline$$', '$$mdi:arrow-right-bold-outline$$',
+    '', '', Right, Left]
   Media:
   - ''
   - ''
@@ -78,8 +82,8 @@ layers:
   - ''
   - $$mdi:bluetooth-off$$
   - ''
-  - ''
-  - ''
+  - $$mdi:lightbulb-outline$$
+  - $$mdi:lightbulb-on-outline$$
   - ''
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -211,6 +215,12 @@ layers:
   - {type: held}
   - {type: held}
 combos:
+- p: [1, 2]
+  k: {t: Mouse, h: toggle}
+  l: [Base]
+- p: [1, 2]
+  k: {t: Base, h: toggle}
+  l: [Mouse]
 - p: [2, 3]
   k: Media
   l: [Base]
@@ -219,10 +229,10 @@ combos:
   l: [Base]
 - p: [21, 22]
   k: Copy
-  l: [Base]
+  l: [Base, Mouse]
 - p: [22, 23]
   k: Paste
-  l: [Base]
+  l: [Base, Mouse]
 - p: [6, 7]
   k: $$mdi:backspace-outline$$
   l: [Base]
