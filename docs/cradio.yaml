@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cradio}
 layers:
-  default: [Q, W, E, R, T, U, I, O, P, LEFT BRACKET, A, S, D, F, G, J, K, L, H, H, Z, X, C, V, B, M, H, ',', ., /, '', '', '', EP OFF]
+  default: [Q, W, E, R, T, U, I, O, P, LEFT BRACKET, A, S, D, F, G, J, K, L, H, H, Z, X, C, V, B, M, H, ',', ., /, EP OFF, '', '', EP OFF]
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
