@@ -10,58 +10,8 @@
 
 // Layer names
 #define BASE 0
-#define FOCAL 1
-#define NAV 2
-#define MOUSE 3
-#define MEDIA 4
-#define NUM 5
-#define SYM 6
-#define FUN 7
 
-// Defaults
-#define QUICK_TAP_MS 175
 
-// Home row mods (stolen from urob)
-#define KEYS_L LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4
-#define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4
-#define THUMBS LH1 LH0 RH0 RH1
-
-#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS)                                 \
-  ZMK_HOLD_TAP(NAME, bindings = <HOLD>, <TAP>; flavor = "balanced";            \
-               tapping-term-ms = <280>; quick-tap-ms = <QUICK_TAP_MS>;         \
-               require-prior-idle-ms = <150>; hold-trigger-on-release;         \
-               hold-trigger-key-positions = <TRIGGER_POS>;)
-
-MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)
-MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)
-
-#define ZMK_COMBO_8(NAME, TAP, POS, LAYERS, COMBO_MS, IDLE_MS, HOLD, SIDE)     \
-  MAKE_HRM(hm_combo_##NAME, &kp, TAP, SIDE THUMBS)                             \
-  ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
-
-// Combos
-#include "combos.dtsi"
-
-// Morphs
-ZMK_MOD_MORPH(lpar_morph, mods = <MOD_LSFT>; bindings = <&kp LPAR>, <&kp LT>;)
-ZMK_MOD_MORPH(rpar_morph, mods = <MOD_LSFT>; bindings = <&kp RPAR>, <&kp GT>;)
-
-// Define shorter / mnemonic names
-#define U_BRI_DN F14
-#define U_BRI_UP F15
-#define U_DESK F11
-#define U_LPAD C_AC_DESKTOP_SHOW_ALL_APPLICATIONS
-#define U_MCTRL C_AC_DESKTOP_SHOW_ALL_WINDOWS
-#define U_MC_L &mkp LCLK
-#define U_MC_R &mkp RCLK
-#define U_MS_D &mmv MOVE_DOWN
-#define U_MS_L &mmv MOVE_LEFT
-#define U_MS_R &mmv MOVE_RIGHT
-#define U_MS_U &mmv MOVE_UP
-#define U_WH_D &msc SCRL_DOWN
-#define U_WH_L &msc SCRL_LEFT
-#define U_WH_R &msc SCRL_RIGHT
-#define U_WH_U &msc SCRL_UP
 
 // Keymap
 ZMK_LAYER(Base,
