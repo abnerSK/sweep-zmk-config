@@ -4,17 +4,22 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/pointing.h>
-#include "zmk-helpers/helper.h"
-#include "zmk-helpers/key-labels/34.h"
+ 
 
-// Layer names
+// Layers
 #define BASE 0
 
+&lt {
+    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+};
 
+/ {
+    keymap {
+        compatible = "zmk,keymap";
 
-// Keymap
-ZMK_LAYER(Base,
+        default_layer {
+            bindings = <
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
 //│             │             │             │             │             │   │             │             │             │             │             │
     &kp Q         &kp W         &kp E         &kp R         &kp T             &kp U         &kp I         &kp O         &kp Y         &kp S
@@ -28,9 +33,12 @@ ZMK_LAYER(Base,
 //                                          │             │             │   │             │             │
                                               &none         &none             &none         &none
 //                                          ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
-)
+            >;
+        };
+    };
+};
 
- 
+
 
 
  
